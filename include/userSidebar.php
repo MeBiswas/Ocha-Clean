@@ -23,6 +23,12 @@
                 <a href="javascript:;"><i class="fa-fw fas fa-info"></i> My Details</a>
             </li>
             <li class="prfl-drpdn-lst-itm">
+                <a href="cleaningInstructions.php"><i class="fa-fw fas fa-broom"></i> Cleaning Instructions</a>
+            </li>
+            <li class="prfl-drpdn-lst-itm">
+                <a href="javascript:;"><i class="fa-fw far fa-building"></i> Property Access</a>
+            </li>
+            <li class="prfl-drpdn-lst-itm">
                 <a href="javascript:;"><i class="fa-fw fas fa-cog"></i> Account Settings</a>
             </li>
             <li class="prfl-drpdn-lst-itm">

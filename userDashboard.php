@@ -457,6 +457,9 @@
     <script type="text/javascript" src="js/pluginInit/hamburgerIconAnimation.js"></script>
 	<!-- My Script -->
 	<script type="text/javascript" src="js/myScript.js"></script>
+    <script type="text/javascript">
+        $('#paymentSuccess').modal();
+    </script>
 	<!-- Scripts -->
 </body>
 </html>

@@ -2064,6 +2064,38 @@ figure {
     float: right;
 }
 /*====================================
+    Privacy Policy Page Style
+======================================*/
+.policy-wrapper {
+    float: left;
+    width: 100%;
+    padding: 60px 20%;
+    background-color: #fff;
+    color: #414042;
+}
+.index-section-title {
+    font-size: 46px;
+    text-align: center;
+    line-height: 1.2;
+    margin-bottom: 56px;
+    color: #414042;
+    font-weight: 500;
+    letter-spacing: -0.5px;
+}
+.policy-wrapper h2 {
+    font-size: 30px;
+    font-weight: lighter !important;
+    color: #555;
+    margin-bottom: 10px;
+}
+.policy-txt {
+    text-align: justify;
+    font-size: 16px;
+    line-height: 24px;
+    color: #7b7b7b;
+    font-weight: 400;
+}
+/*====================================
     Footer Style
 ======================================*/
 .footer-sec {
@@ -2640,4 +2672,41 @@ figure {
 }
 .note-wrap {
     color: red;
+}
+/*====================================
+    Payment Successful Modal Style
+======================================*/
+.payment-success-content .modal-header,
+.payment-success-content .modal-footer {
+    border: none;
+}
+.payment-success-content .modal-header {
+    padding-bottom: 0;
+}
+.payment-success-content .modal-header h2 {
+    font-weight: 600;
+    margin-bottom: 17px;
+    text-align: center;
+    font-size: 28px;
+}
+.payment-success-content .modal-body {
+    text-align: center;
+    padding: 0;
+}
+.payment-success-wrap {
+    width: 100%;
+    display: inline-block;
+    padding: 2% 0;
+}
+.payment-success-wrap h1 {
+    font-size: 30px;
+    margin-bottom: 25px;
+    font-weight: 600;
+}
+.payment-success-wrap p {
+    font-size: 17px;
+    margin-bottom: 20px;
+}
+.payment-success-content .modal-footer {
+    justify-content: center;
 }

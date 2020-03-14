@@ -589,3 +589,19 @@
         </div>
     </div>
 </div>
+<!-- Payment Successful Modal -->
+<div class="modal fade" id="paymentSuccess" tabindex="-1" role="dialog" aria-labelledby="paymentSuccessLabel" aria-hidden="true">
+    <div class="modal-dialog modal-dialog-centered" role="document">
+        <div class="modal-content payment-success-content">
+            <div class="modal-body">
+                <div class="payment-success-wrap">
+                    <figure>
+                        <img src="images/03c70dd5fb1386250b02bef36df23a28.jpg" alt="Payment Successful" class="img-fluid pymnt-succ-img">
+                    </figure>
+                    <h1>Congratulations</h1>
+                    <p>“Your Payment has been successfully Completed.”</p>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>

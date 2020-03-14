@@ -1,5 +1,5 @@
 /*====================================
-	Sticky Header
+	Sticky Header 
 ======================================*/ 
 $(window).on('scroll', function() {
 	if ($(this).scrollTop() > 100) {
