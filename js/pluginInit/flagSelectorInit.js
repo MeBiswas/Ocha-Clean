@@ -1,0 +1,57 @@
+$('#flagSelect').flagStrap({
+    countries: {
+        "AU": "Australia",
+        "BR": "Brazil",
+        "MX": "Mexico",
+        "US": "United States",
+        "GH": "Ghana",
+        "CI": "C" + "&ocirc;" + "te d'Ivoire",
+        "KE": "Kenya",
+        "ZA": "South Africa",
+        "RW": "Rwanda",
+        "NG": "Nigeria",
+        "SG": "Singapore",
+        "CN": "China",
+        "JP": "Japan",
+        "IN": "India",
+        "TR": "Turky",
+        "GB": "United Kingdom",
+        "FR": "France",
+        "DE": "Germany",
+        "PL": "Poland",
+        "RU": "Russia",
+        "ES": "Spain"
+    },
+    labelMargin: "10px",
+    scrollable: true,
+    scrollableHeight: "350px"
+});
+$('#flagSelect2').flagStrap({
+    countries: {
+        "PLS": "Please Select Your Country",
+        "AU": "Australia",
+        "BR": "Brazil",
+        "MX": "Mexico",
+        "US": "United States",
+        "GH": "Ghana",
+        "CI": "C" + "&ocirc;" + "te d'Ivoire",
+        "KE": "Kenya",
+        "ZA": "South Africa",
+        "RW": "Rwanda",
+        "NG": "Nigeria",
+        "SG": "Singapore",
+        "CN": "China",
+        "JP": "Japan",
+        "IN": "India",
+        "TR": "Turky",
+        "GB": "United Kingdom",
+        "FR": "France",
+        "DE": "Germany",
+        "PL": "Poland",
+        "RU": "Russia",
+        "ES": "Spain"
+    },
+    labelMargin: "10px",
+    scrollable: true,
+    scrollableHeight: "350px"
+});
