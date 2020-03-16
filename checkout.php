@@ -60,7 +60,7 @@
                             </div>
                             <div id="collapseOne" class="collapse" data-parent="#accordion">
                                 <div class="card-body">
-                                    <p class="logout_link"><a href="login.php">Logout & Sign In to another account</a></p>
+                                    <!-- <p class="logout_link"><a href="javascript:;">Logout & Sign In to another account</a></p> -->
                                     <div class="cont_checkot_btn_wrap">
                                         <button class="btn theme-btn">Continue Checkout</button>
                                     </div>
@@ -210,14 +210,14 @@
                                             </div>
                                         </label>
                                     </div>
-                                    <div class="ordr_pmt_wrap">
+                                    <!-- <div class="ordr_pmt_wrap">
                                         <label class="form-check-label" for="radio1">
                                             <input type="radio" class="form-check-input" id="radio1" name="optradio" checked>
                                             <div class="ordr_pmt_met_wrap">
                                                 <p class="pmt_met_nam">Cash on Delivery</p>
                                             </div>
                                         </label>
-                                    </div>
+                                    </div> -->
                                 </div>
                             </div>
                         </div>                                    

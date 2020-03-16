@@ -20,13 +20,13 @@
     <!-- Dashboard Sidebar -->
     <!-- Dashboard Content -->
     <section class="cleaner-dash-wrap">
-        <!-- My Details Sections -->
+        <!-- Edit My Details Sections -->
         <section class="sec">
             <div class="container">
                 <div class="row">
                     <div class="col-12">
                         <div class="sec-hed">
-                            <h2 class="sec-title">My Profile</h2>
+                            <h2 class="sec-title">Edit Details</h2>
                         </div>
                     </div>
                 </div>
@@ -40,7 +40,10 @@
                                         <div class="col-12">
                                             <div class="prfl-img-wrap">
                                                 <figure>
-                                                    <img src="images/man-wearing-black-zip-up-jacket-near-beach-smiling-at-the-736716.jpg" class="img-fluid prfl-img">
+                                                    <img id="imgOutput" class="changed-image" />
+                                                    <img id="prevImg" src="images/man-wearing-black-zip-up-jacket-near-beach-smiling-at-the-736716.jpg" class="img-fluid prfl-img">
+                                                    <span class="prfl-img-change"><i class="fas fa-edit"></i></span>
+                                                    <input type="file" name="image" id="imageToUpload" accept="image/*" onchange="loadFile(event)">
                                                 </figure>
                                             </div>
                                         </div>
@@ -49,69 +52,69 @@
                                         <div class="col-12">
                                             <div class="form-group text-left">
                                                 <label>First Name</label>
-                                                <input type="text" class="form-control" value="John" disabled="disabled">
+                                                <input type="text" class="form-control" value="John">
                                             </div>
                                         </div>
                                         <div class="col-12">
                                             <div class="form-group text-left">
                                                 <label>Last Name</label>
-                                                <input type="text" class="form-control" value="Doe" disabled="disabled">
+                                                <input type="text" class="form-control" value="Doe">
                                             </div>
                                         </div>
                                         <div class="col-12">
                                             <div class="form-group text-left">
                                                 <label>Email Address</label>
-                                                <input type="text" class="form-control" value="johndoe@email.com" disabled="disabled">
+                                                <input type="text" class="form-control" value="johndoe@email.com">
                                             </div>
                                         </div>
                                         <div class="col-12">
                                             <div class="form-group text-left">
                                                 <label>Contact Number</label>
-                                                <input type="text" class="form-control" value="9876543210" disabled="disabled">
+                                                <input type="text" class="form-control" value="9876543210">
                                             </div>
                                         </div>
                                         <div class="col-12">
                                             <div class="form-group text-left">
                                                 <label>Full Address</label>
-                                                <textarea class="form-control" disabled="disabled">#some address</textarea>
+                                                <textarea class="form-control">#some address</textarea>
                                             </div>
                                         </div>
                                         <div class="col-12">
                                             <div class="form-group text-left">
                                                 <label>Billing Address</label>
-                                                <textarea class="form-control" disabled="disabled">#some address</textarea>
+                                                <textarea class="form-control">#some address</textarea>
                                             </div>
                                         </div>
                                         <div class="col-12">
                                             <div class="form-group text-left">
                                                 <label>Bank Name*</label>
-                                                <input type="text" class="form-control" value="ABC Bank" disabled="disabled">
+                                                <input type="text" class="form-control" value="ABC Bank">
                                             </div>
                                         </div>
                                         <div class="col-12">
                                             <div class="form-group text-left">
                                                 <label>Account Name*</label>
-                                                <input type="text" class="form-control" value="John Doe" disabled="disabled">
+                                                <input type="text" class="form-control" value="John Doe">
                                             </div>
                                         </div>
                                         <div class="col-12">
                                             <div class="form-group text-left">
                                                 <label>International Bank Account Number*</label>
-                                                <input type="text" class="form-control" value="1234567890" disabled="disabled">
+                                                <input type="text" class="form-control" value="1234567890">
                                             </div>
                                         </div>
                                         <div class="col-12">
                                             <div class="form-group text-left">
                                                 <label>IFSC Code*</label>
-                                                <input type="text" class="form-control" value="12345" disabled="disabled">
+                                                <input type="text" class="form-control" value="12345">
                                             </div>
                                         </div>
                                         <div class="col-12">
                                             <div class="form-group text-left">
                                                 <label>Swift/BIC Code*</label>
-                                                <input type="text" class="form-control" value="123" disabled="disabled">
+                                                <input type="text" class="form-control" value="123">
                                             </div>
-                                        </div>                           
+                                        </div>                            
                                     </div>                                
                                     <!--  -->
                                 </form>
@@ -122,7 +125,7 @@
                         <div class="row m-t-25">
                             <div class="col-12">                                
                                 <div class="text-center">
-                                    <a href="editUserDetails.php" class="btn theme-btn">Edit Profile</a>
+                                    <a href="javascript:;" class="btn theme-btn">Save Details</a>
                                 </div>
                             </div>
                         </div>                    
@@ -130,15 +133,12 @@
                 </div>
             </div>
         </section>
-        <!-- My Details Sections -->               
+        <!-- Edit My Details Sections -->        
     </section>
     <!-- Dashboard Content -->
     <!-- Footer -->
     <?php include('include/footer.php'); ?>
     <!-- Footer -->
-    <!-- Modal -->
-    <?php include('include/modal.php'); ?>
-    <!-- Modal -->
 	<!-- Scripts -->
 	<?php include('include/masterjs.php'); ?>
 	<!-- Plugin Initialization -->
