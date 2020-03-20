@@ -14,6 +14,31 @@
 <body>
 	<!-- Header -->
     <?php include('include/header.php'); ?>
+    <!-- Page Header Section -->
+    <section class="page-hed-sec">
+        <div class="page-hed-ovrl"></div>
+        <div class="container">
+            <div class="row">
+                <div class="col-12">
+                    <div class="page-hed-content-wrap">
+                        <div class="page-hed-title">
+                            <h1 class="entry-title">Blog</h1>
+                        </div>
+                        <div class="page-breadcrumb-wrapper">
+                            <span>
+                                <a href="index.php">
+                                    <img src="images/svg/house.svg" alt="house icon" class="img-fluid breadcrumb-icon" />
+                                </a>
+                            </span>
+                            <span class="breadcrumb-separator">/</span>
+                            <span>Blog</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- Page Header Section -->
     <!-- Header -->
     <!-- Blog Section -->
     <section class="sec blog-page-content-wrapper">
@@ -48,7 +73,7 @@
                             <p class="single-blog-content">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
                             tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
                             quis nostrud exercitation ullamco laboris..</p>
-                            <a href="javascript:;" class="btn theme-btn-2 m-t-10">Read More</a>
+                            <a href="blogDetail.php" class="btn theme-btn-2 m-t-10">Read More</a>
                         </div>
                     </div>
                 </div>
@@ -76,7 +101,7 @@
                             <p class="single-blog-content">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
                             tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
                             quis nostrud exercitation ullamco laboris..</p>
-                            <a href="javascript:void(0)" class="btn theme-btn-2 m-t-10">Read More</a>
+                            <a href="blogDetail.php" class="btn theme-btn-2 m-t-10">Read More</a>
                         </div>
                     </div>
                 </div>
@@ -104,7 +129,7 @@
                             <p class="single-blog-content">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
                             tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
                             quis nostrud exercitation ullamco laboris..</p>
-                            <a href="javascript:void(0)" class="btn theme-btn-2 m-t-10">Read More</a>
+                            <a href="blogDetail.php" class="btn theme-btn-2 m-t-10">Read More</a>
                         </div>
                     </div>
                 </div>

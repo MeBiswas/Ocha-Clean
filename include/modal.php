@@ -605,3 +605,74 @@
         </div>
     </div>
 </div>
+<!-- Unsatisfactory Clean Modal -->
+<div class="modal fade" id="unsatisfactoryClean" tabindex="-1" role="dialog" aria-labelledby="unsatisfactoryCleanLabel" aria-hidden="true">
+    <div class="modal-dialog modal-dialog-centered" role="document">
+        <div class="modal-content unstsfctry-cln-content">
+            <div class="modal-header">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-2"></div>
+                        <div class="col-8">
+                            <h2>Unsatisfactory Clean</h2>
+                        </div>
+                        <div class="col-2">
+                            <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                                <i class="material-icons">close</i>
+                            </button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="modal-body">
+                <form>
+                    <div class="form-group text-left">
+                        <textarea class="form-control" placeholder="Your Reason"></textarea>
+                    </div>
+                    <div class="form-group text-center position-relative dropzone">
+                        <span class="add-img-icn"><i class="material-icons">add_a_photo</i></span>
+                        <input type="file" name="feedbackImage" class="feedback-img">
+                    </div>
+                    <div class="form-group text-center">
+                        <button type="button" class="btn modal-btn">Submit</button>
+                    </div>
+                </form>
+            </div>
+            <div class="modal-footer"></div>
+        </div>
+    </div>
+</div>
+<!-- Tip Cleaner Modal -->
+<div class="modal fade" id="tipCleaner" tabindex="-1" role="dialog" aria-labelledby="tipCleanerLabel" aria-hidden="true">
+    <div class="modal-dialog modal-dialog-centered" role="document">
+        <div class="modal-content tip-cleaner-content">
+            <div class="modal-header">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-2"></div>
+                        <div class="col-8">
+                            <h2>Tip Cleaner</h2>
+                        </div>
+                        <div class="col-2">
+                            <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                                <i class="material-icons">close</i>
+                            </button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="modal-body">
+                <form>
+                    <div class="form-group text-left">
+                        <label>Enter Amount</label>
+                        <input type="text" class="form-control" placeholder="Enter Amount">
+                    </div>
+                    <div class="form-group text-center m-t-25">
+                        <button type="submit" class="btn modal-btn">Submit</button>
+                    </div>
+                </form>
+            </div>
+            <div class="modal-footer"></div>
+        </div>
+    </div>
+</div>

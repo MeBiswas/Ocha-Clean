@@ -25,13 +25,13 @@
 						<h3 class="footer_widget_title">For Users</h3>
 						<div class="footer_widget_content">
 							<ul class="quick_link" type="none">
-								<li><a href="javascript:;"><i class="material-icons">keyboard_arrow_right</i> Press</a></li>
+								<li><a href="press.php"><i class="material-icons">keyboard_arrow_right</i> Press</a></li>
 								<li><a href="blog.php"><i class="material-icons">keyboard_arrow_right</i> Blog</a></li>
 								<li><a href="javascript:;"><i class="material-icons">keyboard_arrow_right</i> Help</a></li>
-								<li><a href="javascript:;"><i class="material-icons">keyboard_arrow_right</i> Privacy</a></li>
-								<li><a href="javascript:;"><i class="material-icons">keyboard_arrow_right</i> Cookies</a></li>
-								<li><a href="javascript:;"><i class="material-icons">keyboard_arrow_right</i> Terms</a></li>
-								<li><a href="javascript:;"><i class="material-icons">keyboard_arrow_right</i> Cancellation</a></li>
+								<li><a href="policy.php"><i class="material-icons">keyboard_arrow_right</i> Privacy</a></li>
+								<li><a href="cookies.php"><i class="material-icons">keyboard_arrow_right</i> Cookies</a></li>
+								<li><a href="terms.php"><i class="material-icons">keyboard_arrow_right</i> Terms</a></li>
+								<li><a href="cancellation.php"><i class="material-icons">keyboard_arrow_right</i> Cancellation</a></li>
 							</ul>
 						</div>
 					</aside>
@@ -43,9 +43,9 @@
 								<h3 class="footer_widget_title">For Cleaner</h3>
 								<div class="footer_widget_content">
 									<ul class="quick_link" type="none">
-										<li><a href="javascript:;"><i class="material-icons">keyboard_arrow_right</i> Career</a></li>
-										<li><a href="javascript:;"><i class="material-icons">keyboard_arrow_right</i> Privacy</a></li>
-										<li><a href="javascript:;"><i class="material-icons">keyboard_arrow_right</i> Terms</a></li>
+										<li><a href="career.php"><i class="material-icons">keyboard_arrow_right</i> Career</a></li>
+										<li><a href="policy.php"><i class="material-icons">keyboard_arrow_right</i> Privacy</a></li>
+										<li><a href="terms.php"><i class="material-icons">keyboard_arrow_right</i> Terms</a></li>
 									</ul>
 								</div>
 							</aside>
@@ -58,7 +58,7 @@
 								<div class="footer_widget_content">
 									<ul class="quick_link" type="none">
 										<li><a href="aboutUs.php"><i class="material-icons">keyboard_arrow_right</i> About Us</a></li>
-										<li><a href="javascript:;"><i class="material-icons">keyboard_arrow_right</i> Press</a></li>
+										<li><a href="press.php"><i class="material-icons">keyboard_arrow_right</i> Press</a></li>
 									</ul>
 								</div>
 							</aside>

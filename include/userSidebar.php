@@ -14,7 +14,10 @@
                 <a href="userChat.php"><i class="fa-fw far fa-comment-dots"></i> Contact Cleaner</a>
             </li>
             <li class="prfl-drpdn-lst-itm">
-                <a href="javascript:;"><i class="fa-fw fas fa-info"></i> My Details</a>
+                <a href="userAppointments.php"><i class="fa-fw far fa-calendar-check"></i> My Appointments</a>
+            </li>
+            <li class="prfl-drpdn-lst-itm">
+                <a href="userPayments.php"><i class="fa-fw far fa-money-bill-alt"></i> My Payments</a>
             </li>
             <li class="prfl-drpdn-lst-itm">
                 <a href="cleaningInstructions.php"><i class="fa-fw fas fa-broom"></i> Cleaning Instructions</a>

@@ -122,3 +122,12 @@ $('.slider-arrow').on('click', function() {
     $(this).toggleClass('slide');
     $('.side-slider-sec').toggleClass('open');
 });
+/*====================================
+    Header Notification
+======================================*/
+$(document).ready(function() {
+    $('.noti-icon-wrap').on('click', function() {
+        // $(this).siblings('li').find('.top-dropdwn-active').removeClass('top-dropdwn-active');
+        $(this).next('.top-dashmain-li').toggleClass('top-dropdwn-active');
+    });
+}); 

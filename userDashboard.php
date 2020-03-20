@@ -32,19 +32,19 @@
                 </div> -->
                 <div class="row align-items-center">
                     <div class="col-4">
-                        <div class="pretty p-switch p-fill">
+                        <!-- <div class="pretty p-switch p-fill">
                             <input type="checkbox" checked="checked" />
                             <div class="state">
                                 <label>Online</label>
                             </div>
-                        </div>
+                        </div> -->
                     </div>
                     <div class="col-4">
                         <div class="cleaner-profile-img-wrap">
                             <div class="hovereffect">
                                 <img class="img-fluid cleaner-profile-img" src="images/man-wearing-black-zip-up-jacket-near-beach-smiling-at-the-736716.jpg" alt="Profile Image">
                                 <div class="overlay">
-                                   <a class="info" href="editMyDetails.php">Edit Profile</a>
+                                   <a class="info" href="editUserDetails.php">Edit Profile</a>
                                 </div>
                             </div>
                         </div>
@@ -362,7 +362,7 @@
                             <div class="row">
                                 <div class="col-12">
                                     <div class="view-mr-wrap">
-                                        <a href="javascript:;" class="btn theme-btn">Review your clean</a>
+                                        <a href="userAppointments.php" class="btn theme-btn">Review your clean</a>
                                     </div>
                                 </div>
                             </div>

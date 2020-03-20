@@ -178,7 +178,6 @@ ul {
     top: 72px;
     z-index: 2;
     opacity: 0;
-    /*display: none;*/
     visibility: hidden;
     background-color: #fff;
     border-top: 3px solid #35d29a;
@@ -1657,6 +1656,8 @@ figure {
 }
 .single-blog-date {
     font-size: 13px;
+    display: inline-block;
+    padding: 4px 5px;
 }
 .single-blog-content-wrapper {
     float: left;
@@ -2078,7 +2079,7 @@ figure {
     text-align: center;
     line-height: 1.2;
     margin-bottom: 56px;
-    color: #414042;
+    color: #2d2d2d;
     font-weight: 500;
     letter-spacing: -0.5px;
 }
@@ -2094,6 +2095,367 @@ figure {
     line-height: 24px;
     color: #7b7b7b;
     font-weight: 400;
+}
+/*====================================
+    User Appointment Page Style
+======================================*/
+.appntmnt-timeln-wrap {
+    width: 100%;
+    background-color: #fff;
+    padding: 10px 15px;
+    border-radius: 5px;
+    margin-bottom: 20px;
+    border: 2px solid #eee;
+}
+.appntmnt-timeln-wrap .clnr-jobs-hed-wrap {
+    margin: 20px 0;
+    width: 100%;
+    display: -ms-flexbox;
+    display: -webkit-flex;
+    display: flex;
+    -webkit-flex-direction: row;
+    -ms-flex-direction: row;
+    flex-direction: row;
+    -webkit-flex-wrap: nowrap;
+    -ms-flex-wrap: nowrap;
+    flex-wrap: nowrap;
+    -webkit-justify-content: space-between;
+    -ms-flex-pack: justify;
+    justify-content: space-between;
+    -webkit-align-content: center;
+    -ms-flex-line-pack: center;
+    align-content: center;
+    -webkit-align-items: center;
+    -ms-flex-align: center;
+    align-items: center;
+}
+/*====================================
+    User Appointment Detail Page Style
+======================================*/
+.aptmnt-dtl-wrap {
+    background-color: #f7f7f7;
+}
+.job-aptmnt-wrap {
+    width: 100%;
+    background-color: #fff;
+    padding: 10px 15px;
+    border-radius: 5px;
+}
+.single-aptmnt-wrap {
+    width: 100%;
+    margin-bottom: 28px;
+    display: inline-block;
+    background-color: #fff;
+    border: 1px solid #d7d7d7;
+}
+.single-aptmnt-btn-wrap {
+    padding: 12px 15px;
+    background-color: #f9f9f9;
+    text-align: right;
+}
+.single-aptmnt-btn-wrap button:not(:last-child) {
+    margin-right: 17px;
+}
+.job-action-btn {
+    padding: 5px 15px;
+    border: 2px solid #222;
+    font-size: 14px;
+    color: #000;
+    transition: all 0.5s ease 0s;
+}
+.job-action-btn:hover {
+    color: #fff;
+    background-color: #222;
+}
+.single-aptmnt-body-wrap {
+    width: 100%;
+    display: inline-block;
+    border: 1px solid #f0f0f0;
+    padding: 15px;
+}
+.single-aptmnt-img {
+    width: 100%;
+    height: auto;
+    max-height: 300px;
+    object-fit: cover;
+    border: 1px solid #eaeaea;
+    padding: 2px;
+}
+.single-aptmnt-body-wrap .usr-nam h4 {
+    font-size: 25px;
+    font-weight: 600;
+    margin-top: 15px;
+    margin-bottom: 10px;
+    color: #212121;
+    display: inline-block;
+}
+.single-aptmnt-body-wrap .clng-typ,
+.single-aptmnt-body-wrap .time {
+    color: #878787;
+    font-size: 15px;
+    font-weight: 500;
+    margin-bottom: 5px;
+}
+.single-aptmnt-body-wrap .job-desc {
+    font-size: 16px;
+    color: #878787;
+    margin: 0 0 5px;
+    text-align: justify;
+}
+.single-aptmnt-body-wrap .action-icn-wrap {
+    width: 100%;
+    display: flex;
+    justify-content: flex-end;
+    align-content: center;
+}
+.single-aptmnt-body-wrap .action-icn,
+.single-aptmnt-body-wrap .action-icn:hover {
+    font-size: 26px;
+    color: #333;
+    width: 50px;
+    text-align: center;
+}
+/*====================================
+    Payment Page Style
+======================================*/
+.img-responsive.paymnt-img {
+    width: 100%;
+    height: auto;
+    outline: 2px solid #d0d0d0;
+    padding: 1%;
+}
+.paymnt-dtl {
+    display: inline-block;
+    padding: 3% 0;
+    width: 100%;
+}
+.paymnt-id {
+    font-size: 20px;
+    font-weight: 600;
+}
+.paymnt-card {
+    font-size: 15px;
+    font-weight: 400;
+    line-height: 3;
+}
+.paymnt-img {
+    border-radius: 2px;
+    border: 1px solid #e1e1e1;
+    padding: 2%;
+}
+.paymnt-rate {
+    padding: 7% 0;
+    font-size: 20px;
+    font-weight: 500;
+    width: 100%;
+    text-align: center;
+}
+.paymnt-date {
+    width: 100%;
+    text-align: center;
+    padding: 7% 0;
+    font-size: 17px;
+    font-weight: 500;
+}
+/*====================================
+    Career Page Style
+======================================*/
+.career-sec {
+    background-color: #f8f9fa;
+    text-align: center;
+    padding-bottom: 0;
+}
+.career-title {
+    font-size: 36px;
+    font-weight: 500;
+    margin-top: 25px;
+    margin-bottom: 20px;
+}
+.hiring-sec {
+    background-color: #fff;
+    padding: 0 0 6%;
+}
+.hiring-img img {
+    width: 100%;
+    object-fit: cover;
+    height: 360px;
+}
+.hiring-cntnt-wrap {
+    width: 100%;
+    display: inline-block;
+}
+.hiring-cntnt {
+    width: 100%;
+    display: inline-block;
+}
+.hiring-cntnt p:not(:last-of-type) {
+    margin-bottom: 15px;
+}
+.hiring-cntnt p {
+    font-size: 17px;
+    text-align: justify;
+}
+.position-card {
+    -webkit-box-shadow: 2px 2px 8px 0px rgba(173,173,173,1);
+    -moz-box-shadow: 2px 2px 8px 0px rgba(173,173,173,1);
+    box-shadow: 2px 2px 8px 0px rgba(173,173,173,1);
+}
+.position-card:not(:last-of-type) {
+    margin-bottom: 25px;
+    border-bottom: 1px solid rgba(0, 0, 0, 0.125) !important;
+}
+.position-card button {
+    padding: 0;
+    text-align: left;
+}
+.position-card .card-header {
+    background-color: #fff;
+    border-bottom: unset;
+}
+.position-card h2 {
+    font-size: 17px;
+    font-weight: 400;
+    color: #222;
+}
+.position-card .card-body {
+    background-color: #f7f7f7;
+}
+/*====================================
+    Blog Detail Page Style
+======================================*/
+.blog-detail-heading-container h3 {
+    font-size: 36px;
+    font-weight: 500;
+}
+.blog-detail-info-container {
+    float: left;
+    width: 100%;
+}
+.blog-detail-info-list {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    width: 100%;
+}
+.blog-detail-info-list-item {
+    float: left;
+    text-align: center;
+    padding: 0 4px;
+}
+.blog-detail-author-name {
+    font-weight: 600;
+    font-size: 17px;
+    text-transform: capitalize;
+}
+.blog-detail-date-posted,
+.blog-detail-time-posted {
+    font-size: 15px;
+}
+.blog-detail-img-slider-container {
+    float: left;
+    width: 45%;
+    padding: 2% 0;
+}
+.blog-detail-img-container {
+    position: relative;
+    max-height: 300px;
+    min-height: 300px;
+    overflow: hidden;
+    background-image: url('../images/books-business-computer-connection-459654.jpg');
+    background-size: cover;
+    background-position: center center;
+    filter: blur(0.3px);
+    -webkit-filter: blur(0.3px);
+}
+.blog-detail-data-container {
+    float: left;
+    width: 100%;
+    padding: 5% 0;
+}   
+.blog-detail-data {
+    margin: 0;
+    width: 100%;
+    font-size: 17px;
+    text-align: justify;
+}
+/*====================================
+    Press Page Style
+======================================*/
+.press-content-wrapper {
+    padding: 6% 0;
+    background-color: #f4f4f4;
+}
+.press-card {
+    width: 100%;
+    display: inline-block;
+    margin-bottom: 35px;
+}
+.press-img-wrap {
+    width: 100%;
+    position: relative;
+}
+.press-img-wrap a {
+    display: block;
+    width: 100%;
+}
+.press-img img {
+    border-radius: 5px 5px 0 0;
+    width: 100%;
+    object-fit: cover;
+    height: ;
+}
+.press-tag {
+    background-color: #17bd82;
+    color: #fff;
+    padding: 5px 20px;
+    border-radius: 3px;
+    font-size: 15px;
+    font-weight: 600;
+    position: absolute;
+    bottom: 20px;
+    left: 20px;
+}
+.press-card-body {
+    width: 100%;
+    padding: 5%;
+    background-color: #fff;
+    border-radius: 0 0 5px 5px;
+    -webkit-box-shadow: 4px 4px 10px 2px rgba(209,209,209,1);
+    -moz-box-shadow: 4px 4px 10px 2px rgba(209,209,209,1);
+    box-shadow: 4px 4px 10px 2px rgba(209,209,209,1);
+}
+.press-card-hed {
+    width: 100%;
+    display: inline-block;
+}
+.press-card-title {
+    font-size: 24px;
+    text-align: left;
+    font-weight: 600;
+    margin-bottom: 15px;
+}
+.press-card-hed ul li {
+    display: inline-block;
+    padding: 0 15px 0 0;
+    font-weight: 500;
+}
+.press-card-meta span {
+    float: left;
+    margin-right: 7px;
+}
+.press-card-meta p {
+    float: left;
+    margin-right: 10px;
+}
+.press-card-meta p:not(:last-child) {
+    color: #27d798;
+}
+.press-card-excerpt {
+    padding: 5% 0;
+    text-align: justify;
+    font-size: 15px;
+    width: 100%;
 }
 /*====================================
     Footer Style
@@ -2708,5 +3070,54 @@ figure {
     margin-bottom: 20px;
 }
 .payment-success-content .modal-footer {
+    justify-content: center;
+}
+/*====================================
+    Unsatisfactory Clean Modal Style
+======================================*/
+.unstsfctry-cln-content .modal-header,
+.unstsfctry-cln-content .modal-footer {
+    border: none;
+}
+.unstsfctry-cln-content .modal-header {
+    padding-bottom: 0;
+}
+.unstsfctry-cln-content .modal-header h2 {
+    font-weight: 600;
+    margin-bottom: 17px;
+    text-align: center;
+    font-size: 28px;
+}
+.unstsfctry-cln-content .modal-body {
+    text-align: center;
+    padding: 0 22px;
+}
+.feedback-img {
+    opacity: 0;
+}
+.unstsfctry-cln-content .modal-footer {
+    justify-content: center;
+}
+/*====================================
+    Tip Cleaner Modal Style
+======================================*/
+.tip-cleaner-content .modal-header,
+.tip-cleaner-content .modal-footer {
+    border: none;
+}
+.tip-cleaner-content .modal-header {
+    padding-bottom: 0;
+}
+.tip-cleaner-content .modal-header h2 {
+    font-weight: 600;
+    margin-bottom: 17px;
+    text-align: center;
+    font-size: 28px;
+}
+.tip-cleaner-content .modal-body {
+    text-align: center;
+    padding: 0 22px;
+}
+.tip-cleaner-content .modal-footer {
     justify-content: center;
 }
